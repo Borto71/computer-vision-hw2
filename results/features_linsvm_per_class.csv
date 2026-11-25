@@ -1,0 +1,38 @@
+label,breed,support,correct,accuracy
+0,Abyssinian,98,79,0.8061224489795918
+1,American Bulldog,100,87,0.87
+2,American Pit Bull Terrier,100,37,0.37
+3,Basset Hound,100,91,0.91
+4,Beagle,100,74,0.74
+5,Bengal,100,90,0.9
+6,Birman,100,78,0.78
+7,Bombay,88,84,0.9545454545454546
+8,Boxer,99,88,0.8888888888888888
+9,British Shorthair,100,79,0.79
+10,Chihuahua,100,68,0.68
+11,Egyptian Mau,97,87,0.8969072164948454
+12,English Cocker Spaniel,100,81,0.81
+13,English Setter,100,88,0.88
+14,German Shorthaired,100,98,0.98
+15,Great Pyrenees,100,86,0.86
+16,Havanese,100,79,0.79
+17,Japanese Chin,100,94,0.94
+18,Keeshond,99,95,0.9595959595959596
+19,Leonberger,100,96,0.96
+20,Maine Coon,100,69,0.69
+21,Miniature Pinscher,100,78,0.78
+22,Newfoundland,100,97,0.97
+23,Persian,100,80,0.8
+24,Pomeranian,100,76,0.76
+25,Pug,100,98,0.98
+26,Ragdoll,100,57,0.57
+27,Russian Blue,100,73,0.73
+28,Saint Bernard,100,95,0.95
+29,Samoyed,100,96,0.96
+30,Scottish Terrier,99,89,0.898989898989899
+31,Shiba Inu,100,95,0.95
+32,Siamese,100,85,0.85
+33,Sphynx,100,94,0.94
+34,Staffordshire Bull Terrier,89,47,0.5280898876404494
+35,Wheaten Terrier,100,91,0.91
+36,Yorkshire Terrier,100,97,0.97

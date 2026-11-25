@@ -1,0 +1,9 @@
+# Python 3.13.18. Exact versions used for the reported results.
+# The CUDA 13.4 builds of torch/torchvision come from the PyTorch index:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu134
+torch==2.15.0
+torchvision==0.29.2
+numpy==2.5.4
+scikit-learn==1.9.1
+pillow==13.0.0
+matplotlib==3.11.2

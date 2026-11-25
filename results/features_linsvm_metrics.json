@@ -1,0 +1,102 @@
+{
+  "accuracy": 0.8383755791768874,
+  "macro_f1": 0.8338042447655337,
+  "auc_roc": 0.9881808401617594,
+  "loss": 2.8307137336739427,
+  "per_class_accuracy": {
+    "Abyssinian": 0.8061224489795918,
+    "American Bulldog": 0.87,
+    "American Pit Bull Terrier": 0.37,
+    "Basset Hound": 0.91,
+    "Beagle": 0.74,
+    "Bengal": 0.9,
+    "Birman": 0.78,
+    "Bombay": 0.9545454545454546,
+    "Boxer": 0.8888888888888888,
+    "British Shorthair": 0.79,
+    "Chihuahua": 0.68,
+    "Egyptian Mau": 0.8969072164948454,
+    "English Cocker Spaniel": 0.81,
+    "English Setter": 0.88,
+    "German Shorthaired": 0.98,
+    "Great Pyrenees": 0.86,
+    "Havanese": 0.79,
+    "Japanese Chin": 0.94,
+    "Keeshond": 0.9595959595959596,
+    "Leonberger": 0.96,
+    "Maine Coon": 0.69,
+    "Miniature Pinscher": 0.78,
+    "Newfoundland": 0.97,
+    "Persian": 0.8,
+    "Pomeranian": 0.76,
+    "Pug": 0.98,
+    "Ragdoll": 0.57,
+    "Russian Blue": 0.73,
+    "Saint Bernard": 0.95,
+    "Samoyed": 0.96,
+    "Scottish Terrier": 0.898989898989899,
+    "Shiba Inu": 0.95,
+    "Siamese": 0.85,
+    "Sphynx": 0.94,
+    "Staffordshire Bull Terrier": 0.5280898876404494,
+    "Wheaten Terrier": 0.91,
+    "Yorkshire Terrier": 0.97
+  },
+  "most_confused": [
+    [
+      "Ragdoll",
+      "Birman",
+      23
+    ],
+    [
+      "American Pit Bull Terrier",
+      "American Bulldog",
+      17
+    ],
+    [
+      "Chihuahua",
+      "Shiba Inu",
+      14
+    ],
+    [
+      "Staffordshire Bull Terrier",
+      "American Bulldog",
+      14
+    ],
+    [
+      "American Pit Bull Terrier",
+      "Staffordshire Bull Terrier",
+      14
+    ],
+    [
+      "Birman",
+      "Siamese",
+      13
+    ],
+    [
+      "Russian Blue",
+      "British Shorthair",
+      13
+    ],
+    [
+      "Beagle",
+      "Basset Hound",
+      13
+    ],
+    [
+      "Siamese",
+      "Birman",
+      12
+    ],
+    [
+      "Pomeranian",
+      "Samoyed",
+      10
+    ]
+  ],
+  "trainable_params": 21349,
+  "train_time_s": 36.61505722999573,
+  "train_accuracy": 0.9592391304347826,
+  "C": 0.001,
+  "scaling": "StandardScaler fitted on train"
+}

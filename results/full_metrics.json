@@ -1,0 +1,107 @@
+{
+  "accuracy": 0.8100299809212319,
+  "macro_f1": 0.8070642482677292,
+  "auc_roc": 0.993045595891586,
+  "loss": 0.6320473551750183,
+  "per_class_accuracy": {
+    "Abyssinian": 0.8163265306122449,
+    "American Bulldog": 0.86,
+    "American Pit Bull Terrier": 0.37,
+    "Basset Hound": 0.76,
+    "Beagle": 0.78,
+    "Bengal": 0.83,
+    "Birman": 0.74,
+    "Bombay": 0.8409090909090909,
+    "Boxer": 0.8484848484848485,
+    "British Shorthair": 0.67,
+    "Chihuahua": 0.51,
+    "Egyptian Mau": 0.8865979381443299,
+    "English Cocker Spaniel": 0.83,
+    "English Setter": 0.81,
+    "German Shorthaired": 0.97,
+    "Great Pyrenees": 0.86,
+    "Havanese": 0.85,
+    "Japanese Chin": 0.87,
+    "Keeshond": 0.9292929292929293,
+    "Leonberger": 0.92,
+    "Maine Coon": 0.77,
+    "Miniature Pinscher": 0.69,
+    "Newfoundland": 0.95,
+    "Persian": 0.73,
+    "Pomeranian": 0.83,
+    "Pug": 0.92,
+    "Ragdoll": 0.73,
+    "Russian Blue": 0.76,
+    "Saint Bernard": 0.93,
+    "Samoyed": 0.95,
+    "Scottish Terrier": 0.8787878787878788,
+    "Shiba Inu": 0.95,
+    "Siamese": 0.79,
+    "Sphynx": 0.82,
+    "Staffordshire Bull Terrier": 0.5393258426966292,
+    "Wheaten Terrier": 0.87,
+    "Yorkshire Terrier": 0.89
+  },
+  "most_confused": [
+    [
+      "Chihuahua",
+      "Shiba Inu",
+      23
+    ],
+    [
+      "Birman",
+      "Ragdoll",
+      19
+    ],
+    [
+      "American Pit Bull Terrier",
+      "Staffordshire Bull Terrier",
+      17
+    ],
+    [
+      "American Pit Bull Terrier",
+      "American Bulldog",
+      14
+    ],
+    [
+      "British Shorthair",
+      "Russian Blue",
+      12
+    ],
+    [
+      "Ragdoll",
+      "Birman",
+      12
+    ],
+    [
+      "Staffordshire Bull Terrier",
+      "American Bulldog",
+      12
+    ],
+    [
+      "Beagle",
+      "Basset Hound",
+      11
+    ],
+    [
+      "American Pit Bull Terrier",
+      "Boxer",
+      11
+    ],
+    [
+      "Staffordshire Bull Terrier",
+      "Boxer",
+      11
+    ]
+  ],
+  "trainable_params": 1555781,
+  "train_time_s": 95.49960422515869,
+  "train_accuracy": 0.9599184782608695,
+  "best_epoch": 15,
+  "epochs": 15,
+  "lr": 0.0001,
+  "batch_size": 64,
+  "optimizer": "AdamW (wd 1e-4) + cosine schedule",
+  "loss_fn": "CrossEntropyLoss",
+  "checkpoint": "checkpoints/full.pt"
+}

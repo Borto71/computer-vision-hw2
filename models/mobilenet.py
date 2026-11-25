@@ -5,7 +5,6 @@ from torchvision.models import MobileNet_V3_Small_Weights, mobilenet_v3_small
 NUM_CLASSES = 37
 WEIGHTS = MobileNet_V3_Small_Weights.DEFAULT  # ImageNet-1K
 
-
 def build_model(mode="full", num_classes=NUM_CLASSES):
     """Pre-trained MobileNetV3-Small with the last layer replaced by a 37-way one"""
     if mode not in ("full", "head", "features"):
@@ -28,7 +27,6 @@ def build_model(mode="full", num_classes=NUM_CLASSES):
 
     return model
 
-
 def set_train_mode(model, mode):
     """model.train() for training, but a frozen feature extractor must stay in eval():
     otherwise BatchNorm keeps updating its running mean/var even with requires_grad=False"""
@@ -38,13 +36,11 @@ def set_train_mode(model, mode):
     elif mode == "features":
         model.eval()
 
-
 def count_params(model):
     """(trainable, total) number of parameters"""
     trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
     total = sum(p.numel() for p in model.parameters())
     return trainable, total
-
 
 @torch.no_grad()
 def extract_features(model, loader, device):
@@ -58,7 +54,6 @@ def extract_features(model, loader, device):
         feats.append(f.cpu())
         labels.append(y)
     return torch.cat(feats).numpy(), torch.cat(labels).numpy()
-
 
 if __name__ == "__main__":
     # quick check: output size and trainable parameters of each approach
