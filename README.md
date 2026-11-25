@@ -16,6 +16,7 @@ All three approaches use the same splits, preprocessing and evaluation protocol.
 | PyTorch | 2.15.0 (+cu134) |
 | TorchVision | 0.29.2 (+cu134) |
 | scikit-learn | 1.9.1 |
+| SciPy | 1.18.1 |
 | NumPy | 2.5.4 |
 | Pillow | 13.0.0 |
 | Matplotlib | 3.11.2 |
