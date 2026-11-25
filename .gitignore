@@ -30,3 +30,6 @@ Thumbs.db
 # NOTE: results/ (metrics, plots) and checkpoints/ (*.pt, ~6 MB each) are
 # intentionally NOT ignored: the assignment asks for generated results and
 # model checkpoints to be included in the repository.
+
+# LaTeX tables written by `python main.py --approach stats` (not committed)
+results/*.tex

@@ -124,7 +124,7 @@ All saved outputs are in `results/`:
 - `<approach>_correct.png`, `<approach>_wrong.png`: the most confident correct and wrong test predictions.
 - `<approach>_roc.png`, `{full,head}_history.png`: ROC curves and training/validation curves.
 - `<approach>_test_predictions.csv`: per-image test predictions (row *i* = row *i* of `data/splits/test.csv`).
-- `significance.{md,json,tex}`, `results_table.tex`: statistical comparison (see below) and LaTeX tables for the report.
+- `significance.{md,json}`: statistical comparison (see below). Running `python main.py --approach stats` also writes LaTeX versions of the tables (`significance.tex`, `results_table.tex`); they are not committed.
 - `comparison.png`, `per_class_accuracy.png`: comparisons across approaches.
 
 The checkpoints for the selected models are `checkpoints/full.pt` and `checkpoints/head.pt` (about 6 MB each, as a `state_dict`).
